@@ -1,0 +1,6 @@
+framework module TestERTCSDK {
+  umbrella header "TestERTCSDK.h"
+  export *
+
+  module * { export * }
+}
