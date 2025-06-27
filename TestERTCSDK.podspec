@@ -19,6 +19,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "A short description of TestERTCSDK."
   spec.description  = <<-DESC
+  TODO: Add long description of the pod here.
                    DESC
 
   spec.homepage     = "https://github.com/jinlongyu123/TestERTCSDK"
