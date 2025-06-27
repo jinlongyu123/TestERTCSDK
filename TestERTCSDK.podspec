@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TestERTCSDK"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of TestERTCSDK."
   spec.description  = <<-DESC
   TODO: Add long description of the pod here.
@@ -37,6 +37,6 @@ Pod::Spec.new do |spec|
   spec.source_files = "TestERTCSDK.framework/Headers/*.{h,m}"
   spec.framework  = "Foundation", "UIKit"
   spec.vendored_frameworks = 'TestERTCSDK.framework'
-
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   spec.requires_arc = true
 end
