@@ -13,6 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)sharedInstance;
 - (int)getSDKVersion;
+
+//新增方法
+- (void)joinRoom:(NSString *)roomId;
 @end
 
 NS_ASSUME_NONNULL_END
