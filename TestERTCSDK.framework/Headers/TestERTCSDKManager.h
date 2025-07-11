@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 //新增方法
 - (void)joinRoom:(NSString *)roomId;
 - (void)exitRoom;
+- (void)enableLocalAudio;
 @end
 
 NS_ASSUME_NONNULL_END
